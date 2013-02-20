@@ -40,12 +40,12 @@ The settings file is located "data" folder near the ofAtem.app.
 3) Start the ofAtem.app
 You should see that.
 
-![connected](https://raw.github.com/telematique/ofAtem/master/images/ofAtem_status0.jpg)
+![connected](https://raw.github.com/telematique/ofAtem/master/images/ofAtem_status1.jpg)
 
 If you see something like that, something is wrong with the network setup or driver installation.
 Go to step 1 :-)
 
-![connection failed](https://raw.github.com/telematique/ofAtem/master/images/ofAtem_status1.jpg)
+![connection failed](https://raw.github.com/telematique/ofAtem/master/images/ofAtem_status0.jpg)
 
 If the connection between the ofAtem.app and your hardware is working you should be able to control it via osc.
 
