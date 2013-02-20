@@ -1,0 +1,6 @@
+<oscSendIp>127.0.0.1</oscSendIp>
+<atemIp>192.168.10.240</atemIp>
+<oscSendPort>3333</oscSendPort>
+<oscReceivePort>4444</oscReceivePort>
+
+
