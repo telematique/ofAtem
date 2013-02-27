@@ -106,6 +106,8 @@ OSC commands to the Atem
 `/atem/getAuxSource AUXNUM`		returns the source id of the selected auxiliary output (AUXNUM:integer)<br />
 `/atem/auxSource AUXNUM ID`		set source of auxiliary output (AUXNUM: integer, ID: integer)<br />
 `/atem/transitionStyle STYLE`	set the transitionstyle (STYLE:string mix, dip, wipe, sting, dve )<br />
+`/atem/setAutoRate FRAMES`	set the autoTransition time in frames (FRAMES:integer)<br />
+`/atem/getAutoRate` 			returns the autoTransition frames (FRAMES:integer)<br />
 
 OSC commands from Atem 
 
@@ -118,5 +120,6 @@ OSC commands from Atem
 `/atem/isInTransition YES/NO`	Transition active or not (YES/NO bool 0 or 1)<br />
 `/atem/ftbrate FRAMES`			"Fade to Black" time in frames (FRAMES:integer)<br />
 `/atem/auxSource AUXNUM ID`		AUXNUM: number of auxiliary output, ID: source ID of auxiliary output<br />
+`/atem/autoRate FRAMES`			autoTransition Frames (FRAMES:integer)<br />
 
 

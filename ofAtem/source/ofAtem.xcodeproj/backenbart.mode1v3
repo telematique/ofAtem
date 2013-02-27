@@ -337,16 +337,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>651F33E016D3A4C1009DE967</string>
+										<string>659DA18F16DE67B60033A0C1</string>
 										<key>history</key>
 										<array>
-											<string>65A27EF916BC0183006D6F8A</string>
 											<string>6572A37216C17A2300A2D3E5</string>
 											<string>651E691616C3FA9600CE81B2</string>
 											<string>65B6141716C5615100C7D83F</string>
-											<string>65B6141916C5615100C7D83F</string>
-											<string>65B6141B16C5615100C7D83F</string>
-											<string>65B6141D16C5615100C7D83F</string>
 											<string>65B614C816C593F600C7D83F</string>
 											<string>6523D1FF16CD343900C42D20</string>
 											<string>6523D20016CD343900C42D20</string>
@@ -357,8 +353,8 @@
 											<string>6523D20616CD343900C42D20</string>
 											<string>65475CE616D2905B00DC05CB</string>
 											<string>65475D3716D299DB00DC05CB</string>
-											<string>65475D6316D2A31100DC05CB</string>
-											<string>65475D8516D2A97300DC05CB</string>
+											<string>659DA18316DE64F80033A0C1</string>
+											<string>659DA18416DE64F80033A0C1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -416,9 +412,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>651F33E116D3A4C1009DE967</string>
+				<string>659DA18616DE64F80033A0C1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>651F33E216D3A4C1009DE967</string>
+				<string>659DA18716DE64F80033A0C1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -556,12 +552,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>651F33E316D3A4C1009DE967</string>
-		<string>651F33E416D3A4C1009DE967</string>
+		<string>659DA18916DE64F80033A0C1</string>
+		<string>659DA18A16DE64F80033A0C1</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>65D2253B16BAB52300675FBF</string>
-		<string>/data/11_openframeworks/of_v0073_osx_release/apps/myApps/ofAtem06/ofAtem.xcodeproj</string>
+		<string>/data/11_openframeworks/of_v0073_osx_release/apps/myApps/ofAtem07/ofAtem.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>151 262 1374 760 0 0 1680 1028 </string>
@@ -580,12 +576,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>testApp.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -641,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>65D2253B16BAB52300675FBF</string>
-				<string>651F33D816D3A4BF009DE967</string>
+				<string>659DA16216DE61980033A0C1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -763,13 +761,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>651F33D916D3A4BF009DE967</string>
+				<string>659DA16316DE61980033A0C1</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>651F33DA16D3A4BF009DE967</string>
-				<string>651F33DB16D3A4BF009DE967</string>
-				<string>651F33DC16D3A4BF009DE967</string>
-				<string>651F33DD16D3A4BF009DE967</string>
-				<string>651F33DE16D3A4BF009DE967</string>
+				<string>659DA16416DE61980033A0C1</string>
+				<string>659DA16516DE61980033A0C1</string>
+				<string>659DA16616DE61980033A0C1</string>
+				<string>659DA16716DE61980033A0C1</string>
+				<string>659DA16816DE61980033A0C1</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -933,7 +931,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>651F33DF16D3A4BF009DE967</string>
+				<string>659DA16916DE61980033A0C1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

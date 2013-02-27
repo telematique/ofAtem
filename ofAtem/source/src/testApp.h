@@ -1,3 +1,8 @@
+// (c) 2012 telematique
+// www.telematique.de
+// telematique@web.de
+
+
 #pragma once
 
 #include "ofxXmlSettings.h"
@@ -115,9 +120,8 @@ public:
 	void setTransitionStyle(string style);
 	int connectionStatus;
 	int inputCount;
-
-
-
+	void setAutoRate(uint32_t frames);
+	void getAutoRate();
 	void testGetFTBRate();
 
 	//////////////////////////////

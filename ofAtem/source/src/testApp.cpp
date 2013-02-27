@@ -102,6 +102,10 @@ void testApp::update(){
 			getAuxSource(oscMessageInt);
 		}
 		
+		if (oscAddress == "/atem/getAutoRate"){
+			getAutoRate();
+		}
+		
 		
 		//////////   set functions   ///////////
 		
@@ -152,6 +156,12 @@ void testApp::update(){
 			oscMessageString = m.getArgAsString(0);
 			setTransitionStyle(oscMessageString);
 		}
+		if (oscAddress == "/atem/setAutoRate"){
+			oscMessageInt = m.getArgAsInt32(0);
+			setAutoRate(oscMessageInt);
+		}
+		
+		
 		oscAddress = "osc: " + oscAddress ;
 	}
 }
@@ -528,6 +538,29 @@ void testApp::setTransitionStyle(string style){
 		}
 	}
 }
+
+void testApp::getAutoRate(){
+	HRESULT result;
+	IBMDSwitcherTransitionMixParameters* mTransitionMixParameters=NULL;
+	result = mMixEffectBlock->QueryInterface(IID_IBMDSwitcherTransitionMixParameters, (void**)&mTransitionMixParameters);
+	if (SUCCEEDED(result))
+	{
+		uint32_t frames;
+		mTransitionMixParameters->GetRate(&frames);
+		sendOscInt("/atem/autoRate", frames);
+	}
+}
+
+void testApp::setAutoRate(uint32_t frames){
+	HRESULT result;
+	IBMDSwitcherTransitionMixParameters* mTransitionMixParameters=NULL;
+	result = mMixEffectBlock->QueryInterface(IID_IBMDSwitcherTransitionMixParameters, (void**)&mTransitionMixParameters);
+	if (SUCCEEDED(result))
+	{
+		mTransitionMixParameters->SetRate(frames);
+	}
+}
+
 //////////////  TOOLS  ///////////////////
 
 void testApp::sendOscInt(string oscMsg, int oscArg){
@@ -564,8 +597,6 @@ string testApp::getCStringFromCFString(CFStringRef myCFStringRef){
 }
 
 
-
-
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 	
@@ -593,6 +624,7 @@ void testApp::mousePressed(int x, int y, int button){
 
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
+	
 	
 }
 
