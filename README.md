@@ -19,12 +19,12 @@ A second example shows, how to control the ATEM switch with Ableton Live (using 
 
 If you have an sugestions, new ideas or you want to hire me for expanding the project, feel free to contact me.
 - email: [telematique@web.de] (telematique@web.de)
-- web: [www.telematique.de] (www.telematique.de)
+- web: [www.telematique.de] (http://www.telematique.de)
 
 I also want to thank the following people for making the ofAtem project possible:
-- [Johnny DeKam] (www.bejohnny.com)  contribution
-- [Timm Ringewaldt] (www.autokolor.org) contribution, technical support
-- [Till Wimmer] (www.bit1.pro) for programming support
+- [Johnny DeKam] (http://www.bejohnny.com)  contribution
+- [Timm Ringewaldt] (http://www.autokolor.org) contribution, technical support
+- [Till Wimmer] (http://www.bit1.pro) for programming support
 
 
 
